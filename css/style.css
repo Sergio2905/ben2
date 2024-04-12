@@ -783,7 +783,7 @@ body._lock {
   transform: translate(0, -60%);
   width: 100%;
   aspect-ratio: 1440/1763;
-  background: url("../../img/partners/blur.webp") center/cover no-repeat;
+  background: url("../img/partners/blur.webp") center/cover no-repeat;
   pointer-events: none;
 }
 
@@ -854,7 +854,7 @@ body._lock {
   transform: translate(20px, -45%);
   width: 99px;
   height: 197px;
-  background: url("../../img/story/star.webp") top right/contain no-repeat;
+  background: url("../img/story/star.webp") top right/contain no-repeat;
 }
 
 .story__body {
@@ -1044,7 +1044,7 @@ body._lock {
   bottom: 20%;
   left: 0;
   transform: translate(-50%, 0);
-  background: url("../../img/banner/paw.webp") center/contain no-repeat;
+  background: url("../img/banner/paw.webp") center/contain no-repeat;
   opacity: 0;
   transition: all 0.8s ease 1s;
 }
@@ -1057,7 +1057,7 @@ body._lock {
   bottom: 0;
   right: 0;
   transform: translate(-30%, 10%);
-  background: url("../../img/banner/icon.webp") center/contain no-repeat;
+  background: url("../img/banner/icon.webp") center/contain no-repeat;
   opacity: 0;
   transition: all 0.8s ease 1.2s;
 }
@@ -1394,7 +1394,7 @@ body._lock {
   width: 95px;
   height: 95px;
   transform: translate(-100%, 0);
-  background: url("../../img/system/paw.webp") center/contain no-repeat;
+  background: url("../img/system/paw.webp") center/contain no-repeat;
 }
 
 .system__info .system__intro {
@@ -1436,7 +1436,7 @@ body._lock {
   transform: translate(50%, -35%);
   width: 213px;
   height: 213px;
-  background: url("../../img/system/decor.webp") center/contain no-repeat;
+  background: url("../img/system/decor.webp") center/contain no-repeat;
 }
 
 .system__marquee::after {
@@ -1447,7 +1447,7 @@ body._lock {
   transform: translate(0, -60%);
   width: 253px;
   height: 476px;
-  background: url("../../img/system/paw_big.webp") center/contain no-repeat;
+  background: url("../img/system/paw_big.webp") center/contain no-repeat;
   z-index: -1;
 }
 
@@ -1464,7 +1464,7 @@ body._lock {
   transform: translate(-50%, -50%);
   width: 100%;
   aspect-ratio: 1/1;
-  background: url("../../img/hopping/blur.webp") center/cover no-repeat;
+  background: url("../img/hopping/blur.webp") center/cover no-repeat;
   z-index: -1;
   opacity: 0.7;
 }
@@ -1723,7 +1723,7 @@ body._lock {
   left: 0;
   width: 20px;
   height: 20px;
-  background: url("../../img/icons/icons.svg#list") center/contain no-repeat;
+  background: url("../img/icons/icons.svg#list") center/contain no-repeat;
 }
 
 .studio__item:not(:last-child) {
@@ -1863,7 +1863,7 @@ body._lock {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  background: url("../../img/stacking/blur.webp") center/cover no-repeat;
+  background: url("../img/stacking/blur.webp") center/cover no-repeat;
   height: 180%;
   aspect-ratio: 1/1;
   z-index: -1;
@@ -1907,7 +1907,7 @@ body._lock {
   transform: translate(-100%, -50%);
   width: 100px;
   aspect-ratio: 100/200;
-  background: url("../../img/media/decor.webp") center left/contain no-repeat;
+  background: url("../img/media/decor.webp") center left/contain no-repeat;
   pointer-events: none;
   opacity: 0;
   transition: all 0.8s ease 0.8s;
@@ -1921,7 +1921,7 @@ body._lock {
   transform: translate(0, -45%);
   width: 707px;
   aspect-ratio: 707/1400;
-  background: url("../../img/media/blur.webp") center right/cover no-repeat;
+  background: url("../img/media/blur.webp") center right/cover no-repeat;
   pointer-events: none;
   opacity: 0;
   transition: all 0.8s ease 0.8s;
@@ -2020,7 +2020,7 @@ body._lock {
   transform: translate(-20px, -50%);
   width: 180px;
   aspect-ratio: 180/300;
-  background: url("../../img/start/decor1.webp") center left/contain no-repeat;
+  background: url("../img/start/decor1.webp") center left/contain no-repeat;
 }
 
 .start::after {
@@ -2031,7 +2031,7 @@ body._lock {
   transform: translate(20px, -50%);
   width: 360px;
   aspect-ratio: 360/369;
-  background: url("../../img/start/decor2.webp") center right/contain no-repeat;
+  background: url("../img/start/decor2.webp") center right/contain no-repeat;
 }
 
 .start__body {
@@ -2199,7 +2199,7 @@ body._lock {
   transform: translate(0, -50%);
   width: 23px;
   height: 23px;
-  background: url("../../img/icons/icons.svg#list2") center/contain no-repeat;
+  background: url("../img/icons/icons.svg#list2") center/contain no-repeat;
 }
 
 .start__item:not(:last-child) {
@@ -2488,7 +2488,7 @@ body._lock {
   transform: translate(100%, 100%);
   width: 140px;
   aspect-ratio: 140/230;
-  background: url("../../img/contacts/clouds.webp") center right/contain no-repeat;
+  background: url("../img/contacts/clouds.webp") center right/contain no-repeat;
   opacity: 0;
   transition: all 0.8s ease 1s;
 }
@@ -2612,7 +2612,7 @@ body._lock {
   right: 0;
   width: 27%;
   aspect-ratio: 1/1;
-  background: url("../../img/contacts/icon.webp") center/contain no-repeat;
+  background: url("../img/contacts/icon.webp") center/contain no-repeat;
   opacity: 0;
   transition: all 0.8s ease 0.5s;
 }
@@ -2696,7 +2696,7 @@ body._lock {
   width: 154%;
   max-width: 730px;
   aspect-ratio: 730/820;
-  background: url("../../img/play/clouds.webp") center left/contain no-repeat;
+  background: url("../img/play/clouds.webp") center left/contain no-repeat;
   z-index: -1;
 }
 
@@ -2799,7 +2799,7 @@ body._lock {
   max-width: 260px;
   width: 30%;
   aspect-ratio: 260/470;
-  background: url("../../img/footer/decor1.webp") top right/contain no-repeat;
+  background: url("../img/footer/decor1.webp") top right/contain no-repeat;
   transform: scale(0);
 }
 
@@ -2812,7 +2812,7 @@ body._lock {
   max-width: 245px;
   width: 30%;
   aspect-ratio: 245/435;
-  background: url("../../img/footer/decor2.webp") top right/contain no-repeat;
+  background: url("../img/footer/decor2.webp") top right/contain no-repeat;
   transform: scale(0);
 }
 

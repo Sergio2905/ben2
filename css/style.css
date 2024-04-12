@@ -672,8 +672,9 @@ body._lock {
   transform: translate(0, -60%);
   width: 100%;
   aspect-ratio: 1440/1763;
-  background: url("../img/partners/blur.webp") center/cover no-repeat;
+  background: url("../img/partners/blur.webp") center/contain no-repeat;
   pointer-events: none;
+  display: none;
 }
 
 .partners__body {

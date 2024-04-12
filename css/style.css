@@ -690,6 +690,8 @@ body._lock {
   width: 24px;
   height: 24px;
   margin-left: 10px;
+  border-radius: 50%;
+  overflow: hidden;
 }
 
 .partners {

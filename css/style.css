@@ -664,6 +664,25 @@ body._lock {
   position: relative;
 }
 
+.partners.active::after {
+  transform: translate(0, -60%) scale(1);
+  opacity: 1;
+}
+
+.partners::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0, -60%) scale(0);
+  width: 100%;
+  aspect-ratio: 1440/1763;
+  background: url("../img/partners/blur.webp") center/cover no-repeat;
+  pointer-events: none;
+  opacity: 0;
+  transition: all 0.8s ease 0.5s;
+}
+
 .partners__body {
   padding: 50px 0;
   position: relative;

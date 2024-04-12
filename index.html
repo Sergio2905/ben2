@@ -11,9 +11,9 @@
     <link rel="preload" href="fonts/PaytoneOne-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
     <link rel="preload" href="fonts/JosefinSans-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
     <link rel="preload" href="fonts/JosefinSans-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.min.css?_v=20240412142319">
+    <link rel="stylesheet" href="css/style.min.css?_v=20240412145436">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css?_v=20240412142319" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css?_v=20240412145436" />
 </head>
 
 <body>
@@ -412,12 +412,21 @@
                                     </li>
                                 </ul>
                                 <div class="hopping__btns animate">
-                                    <a href="#" class="hopping__btn">
-                                        <img src="img/hopping/google_play.svg" alt="Google Play" width="190"
-                                            height="60">
+                                    <a href="#" class="hopping__btn lazy">
+                                        <picture>
+                                            <source data-srcset="img/hopping/google_play.svg" srcset="img/plug.png"
+                                                type="image/webp">
+                                            <img data-src="img/hopping/google_play.svg" src="img/plug.png"
+                                                alt="Google Play" width="190" height="60">
+                                        </picture>
                                     </a>
-                                    <a href="#" class="hopping__btn">
-                                        <img src="img/hopping/app_store.svg" alt="App Store" width="190" height="60">
+                                    <a href="#" class="hopping__btn lazy">
+                                        <picture>
+                                            <source data-srcset="img/hopping/app_store.svg" srcset="img/plug.png"
+                                                type="image/webp">
+                                            <img data-src="img/hopping/app_store.svg" src="img/plug.png"
+                                                alt="App Store" width="190" height="60">
+                                        </picture>
                                     </a>
                                 </div>
                             </div>
@@ -749,9 +758,9 @@
                                 <div class="tokenomikcs__info">
                                     <span>Token Address:</span>
                                     <form class="tokenomikcs__form">
-                                        <input type="text" class="tokenomikcs__input"
-                                            value="FSJLKjMS?LVSMSV887dv...svm">
-                                        <button type="button" class="tokenomikcs__copy">
+                                        <input type="text" class="tokenomikcs__input" value="FSJLKjMS?LVSMSV887dv...svm"
+                                            placeholder="key">
+                                        <button type="button" class="tokenomikcs__copy" title="copy">
                                             <svg>
                                                 <use href="img/icons/icons.svg#copy"></use>
                                             </svg>
@@ -965,8 +974,8 @@
 </footer>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js?_v=20240412142319"></script>
-    <script src="js/app.min.js?_v=20240412142319" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js?_v=20240412145436"></script>
+    <script src="js/app.min.js?_v=20240412145436" defer></script>
 </body>
 
 </html>
